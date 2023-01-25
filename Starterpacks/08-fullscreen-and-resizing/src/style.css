@@ -1,0 +1,17 @@
+/* Remove margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Move canvas to top left corner and remove scrollbar */
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none; /* Get rid of outline on canvas */
+}
+
+html, body {
+    overflow: hidden;
+}
